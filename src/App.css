@@ -1,0 +1,103 @@
+/* Reset básico para mejorar la apariencia */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Fondo degradado */
+body {
+  background: linear-gradient(45deg, #6ab7ff, #f0f0f0); /* Degradado de azul claro a gris */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Estilo para el contenedor principal de la app */
+#root {
+  background: #ffffff; /* Fondo blanco para la tarjeta */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+/* Título principal */
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el input en el formulario */
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff; /* Establece un fondo blanco */
+  color: #333; /* Color de texto oscuro */
+}
+
+input:focus {
+  outline: none;
+  border-color: #000000; /* Cambiar el borde cuando esté enfocado */
+  background-color: #f8f9fa; /* Fondo suave cuando está enfocado */
+}
+
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Estilos para las tareas */
+.containerTarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.containerTareacompletada {
+  background-color: #d4edda;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+/* Botones dentro de cada tarea */
+.containerTarea button {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+.containerTarea button:hover {
+  background-color: #c82333;
+}

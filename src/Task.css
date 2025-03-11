@@ -1,0 +1,89 @@
+/* Estilos para cada tarea */
+.containerTarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background 0.3s ease;
+  }
+  
+  /* Estilo cuando la tarea está completada */
+  .containerTareacompletada {
+    background-color: #d4edda; /* Verde suave */
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  /* Título de la tarea */
+  h2 {
+    flex: 1;
+    font-size: 18px;
+    color: #333;
+    word-break: break-word;
+  }
+  
+  /* Estado de la tarea: completada o no */
+  .completada {
+    color: #155724; /* Verde oscuro */
+  }
+  
+  .noCompletada {
+    color: #333;
+  }
+  
+  /* Botón de completar */
+  #completar {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #completar:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Botón de eliminar */
+  #addtask {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #addtask:hover {
+    background-color: #c82333;
+  }
+/* Asegurar que los elementos dentro de la tarea estén bien alineados */
+.containerTarea {
+    display: flex;
+    align-items: center;  /* Centra los elementos verticalmente */
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, background 0.3s ease;
+  }
+  
+  /* Ajustar el título de la tarea */
+  .containerTarea h2 {
+    flex: 1; /* Ocupa el espacio disponible */
+    font-size: 18px;
+    color: #333;
+    margin: 0; /* Evitar márgenes extra que desalineen */
+    display: flex;
+    align-items: center; /* Alineación vertical */
+  }
+    
