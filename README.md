@@ -1,12 +1,22 @@
-# React + Vite
+# Todo List - Aplicación de Tareas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una aplicación simple de lista de tareas (To-Do List) creada con React. Permite a los usuarios agregar, marcar como completadas y eliminar tareas de una lista. Está diseñada para gestionar tareas de manera eficiente con una interfaz sencilla y amigable.
 
-Currently, two official plugins are available:
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm5oOTVrcjFteGRuM3NpNXNtZDRqNzBvbGRhOHA2b2owZno0Nno3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qeOvyA0WiqJnefJW9S/giphy.gif"/> 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Características
+- <b>Agregar tareas:</b> Puedes agregar nuevas tareas a la lista con solo escribir el nombre y hacer clic en el botón "Agregar".<br>
+- <b>Marcar tareas como completadas:</b> Puedes marcar las tareas como completadas para destacarlas.<br>
+- <b>Eliminar tareas:</b> Puedes eliminar cualquier tarea de la lista con un solo clic.<br>
+- <b>Interfaz limpia y funcional:</b> Una interfaz sencilla y directa para gestionar tus tareas.<br>
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
+- <b>React:</b> Librería de JavaScript para crear interfaces de usuario interactivas.
+- <b>CSS:</b> Estilos personalizados para la aplicación.
+- <b>GitHub Pages:</b> Para desplegar la aplicación en línea.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Uso
+1. <b>Agregar una tarea:</b> Escribe el nombre de la tarea en el campo de entrada y haz clic en el botón "Agregar".
+2. <b>Marcar tarea como completada:</b> Haz clic en el botón "Completada" junto a la tarea para marcarla.
+3. <b>Eliminar tarea:</b> Haz clic en el botón "Eliminar" para quitar la tarea de la lista.
+
